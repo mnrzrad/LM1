@@ -1,14 +1,6 @@
 book_filename: "LM1"
 rmd_files: ["index.Rmd",
-            "GI.Rmd",
-            "get_your_gitbook.Rmd",
-            "editing_the_book.Rmd",
-            "figures_tables.Rmd",
-            "examples.Rmd",
-            "open_educational.Rmd",
-            "use_in_course.Rmd",
-            "licenses.Rmd",
-            "references.Rmd"]
+            "GI.Rmd"]
 output_dir: "docs"
 site: bookdown::bookdown_site
 github-repo: "https://github.com/mnrzrad/LM1"
@@ -16,3 +8,4 @@ language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
+

@@ -7,5 +7,3 @@ called consistent if there is at least one set of values for the
 unknowns that satisfies each equation in the system—that is, when
 substituted into each of the equations, they make each equation hold
 true as an identity.)
-
-## 

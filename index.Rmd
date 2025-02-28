@@ -4,13 +4,14 @@ author: "[Mohammad Arashi](http://prof.um.ac.ir/arashi/)"
 date: "`r Sys.Date()`"
 description: This book is related to Course LM-701
 documentclass: book
-github-repo: mnrzrad/LM1
 link-citations: yes
 site: bookdown::bookdown_site
 biblio-style: apalike
+output: bookdown::gitbook
 ---
 
-# Chapter 0
+# Introduction  
+Welcome to the book on Linear Models...
 
 <!--"Using GitBooks to create Open course materials"-->
 <!--
