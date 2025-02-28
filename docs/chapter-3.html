@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>References | Linear Models</title>
+  <title>Chapter 3 Chapter 3 | Linear Models</title>
   <meta name="description" content="This book is related to Course LM-701" />
   <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="References | Linear Models" />
+  <meta property="og:title" content="Chapter 3 Chapter 3 | Linear Models" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This book is related to Course LM-701" />
   <meta name="github-repo" content="mnrzrad/LM1" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="References | Linear Models" />
+  <meta name="twitter:title" content="Chapter 3 Chapter 3 | Linear Models" />
   
   <meta name="twitter:description" content="This book is related to Course LM-701" />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="license.html"/>
-
+<link rel="prev" href="chapter2.html"/>
+<link rel="next" href="ch4.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -108,8 +108,63 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="references" class="section level1 unnumbered hasAnchor">
-<h1>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="chapter-3" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Chapter 3<a href="chapter-3.html#chapter-3" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--
+
+The contents of the book are written in **RMarkdown**. You can use any formatting code that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$. Moreover, you can include chunks of R-code, like this:
+
+<pre><code>```{r}
+print("This is an R-command!")
+```</code></pre>
+
+The results of these chunks can be rendered to the GitBook:
+
+
+```
+## [1] "This is an R-command!"
+```
+
+To edit the book, you can change the text in the `.Rmd` files. Each Rmd file should contain **one and only one** chapter. A chapter is defined by the first-level heading `#`, e.g., `# Editing the book`.
+
+Any sub-headings within the chapter are indicated with several `#` signs, e.g., `##` (level 2) and `###` (level 3).
+
+## Creating new chapters
+
+To create a new chapter, you must follow two steps: 1) Create the file, and 2) Include it in the list of chapters.
+
+First, to create the file for a new chapter in Rstudio, click `File > New File > Text file`. At the top of the file, write your chapter heading, as explained above. Then, click `File > Save`. Save the file as `.Rmd`, without spaces in the file name, e.g.: `editing_the_book.Rmd`.
+
+Second, to include it in the list of chapters, open the file `_bookdown.yml` (click it in the Files explorer in the bottom right of Rstudio). This file has a list of `.Rmd` files to be included in the book. In this example, the list looks like this:
+
+
+``` r
+tmp <- readLines("_bookdown.yml")
+cat(tmp[grep("^rmd_files", tmp):grep("references\\.Rmd", tmp)], sep = "\n")
+```
+
+rmd_files: ["index.Rmd",
+            "GI.Rmd",
+            "get_your_gitbook.Rmd",
+            "editing_the_book.Rmd",
+            "figures_tables.Rmd",
+            "examples.Rmd",
+            "open_educational.Rmd",
+            "use_in_course.Rmd",
+            "licenses.Rmd",
+            "references.Rmd"]
+
+Insert the file name of your new chapter in the desired position in this list.
+
+## Linking across chapters
+
+You can label chapter and section titles using `{#label}` after them. The labels can be used as cross-references. For example, we can link to Chapter \@ref(figtab). If you do not manually label chapters, there will be automatic labels anyway, e.g., Chapter \@ref(examples).
+
+## Advanced editing
+
+The convenient [Rmarkdown Cheat Sheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) by Rstudio covers most of the knowledge required for advanced Rmarkdown editing. You can print it out and stick it to your wall!
+
+-->
 
 </div>
             </section>
@@ -117,8 +172,8 @@
           </div>
         </div>
       </div>
-<a href="license.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="chapter2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ch4.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -149,7 +204,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/mnrzrad/LM1/edit/master/references.Rmd",
+"link": "https://github.com/mnrzrad/LM1/edit/master/editing_the_book.Rmd",
 "text": "Edit"
 },
 "history": {

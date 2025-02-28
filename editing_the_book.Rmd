@@ -1,4 +1,5 @@
-# Editing the book
+# Chapter 3
+<!--
 
 The contents of the book are written in **RMarkdown**. You can use any formatting code that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$. Moreover, you can include chunks of R-code, like this:
 
@@ -38,3 +39,5 @@ You can label chapter and section titles using `{#label}` after them. The labels
 ## Advanced editing
 
 The convenient [Rmarkdown Cheat Sheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) by Rstudio covers most of the knowledge required for advanced Rmarkdown editing. You can print it out and stick it to your wall!
+
+-->

@@ -1,5 +1,6 @@
-# Examples
+# Chapter 5
 
+<!--
 Here are some examples of other GitBooks for courses; if you want to have your GitBook added to the list, please send a [Pull Request](https://github.com/cjvanlissa/gitbook-demo/pulls) (here's [how to send a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)).
 
 ## Statistics with R (H. Quene)
@@ -25,3 +26,4 @@ A GitBook on doing meta-analysis in R, based on the book ‘Doing Meta-Analysis 
 <https://anovabr.github.io/mqt/>
 
 This book provides a short and to-the-point exposition on the essentials of statistics, and was written for undergraduate students at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio). To a lesser degree, the mathematical modeling of statistical questions will be addressed. This book might be relevant for Portuguese-speaking students who enroll for laboratory-based statistics and anyone who wants to learn R.
+-->
