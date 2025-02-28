@@ -1,10 +1,8 @@
 --- 
-title: "A GitBook Example for Teaching"
-author: "[dr. Caspar J. van Lissa](https://www.uu.nl/staff/CJvanLissa)"
+title: "Linear Models"
+author: "[Mohammad Arashi](http://prof.um.ac.ir/arashi/)"
 date: "`r Sys.Date()`"
-description: This GitBook is an example of a GitBook for teaching. It can be 
-  adapted for specific courses. The output format for this example
-  is bookdown::gitbook.
+description: This book is related to Course LM-701
 documentclass: book
 github-repo: cjvanlissa/gitbook-demo
 link-citations: yes
@@ -16,6 +14,7 @@ biblio-style: apalike
 ---
 
 <!--"Using GitBooks to create Open course materials"-->
+<!--
 # About GitBooks
 
 ![](./img/using_gitbook.jpeg)
@@ -45,3 +44,4 @@ GitBooks consist of an Rstudio project, with several Rmarkdown files containing 
 **Getting started**
   
 If you are convinced that this tool might benefit your teaching, your first point of action is to prepare your system for creating GitBooks (Chapter \@ref(prerequisites)). After that, you can get a copy of this GitBook as a template (Chapter \@ref(getgitbook)). Then, you can start tweaking it for your own course!
+-->
