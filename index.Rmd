@@ -4,7 +4,7 @@ author: "[Mohammad Arashi](http://prof.um.ac.ir/arashi/)"
 date: "`r Sys.Date()`"
 description: This book is related to Course LM-701
 documentclass: book
-github-repo: cjvanlissa/gitbook-demo
+github-repo: mnrzrad/LM1
 link-citations: yes
 bibliography:
 - book.bib
