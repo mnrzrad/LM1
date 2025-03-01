@@ -1,6 +1,6 @@
 --- 
 title: "Linear Models"
-author: "[Mohammad Arashi](http://prof.um.ac.ir/arashi/)"
+author: "[author]()"
 date: "`r Sys.Date()`"
 description: This book is related to Course LM-701
 documentclass: book
