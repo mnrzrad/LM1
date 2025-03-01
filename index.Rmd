@@ -1,6 +1,6 @@
 --- 
 title: "Linear Models"
-author: "[author]()"
+author: "[author](https://www.researchgate.net/profile/Mina-Norouzirad)"
 date: "`r Sys.Date()`"
 description: This book is related to Course LM-701
 documentclass: book
